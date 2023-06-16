@@ -14,6 +14,65 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/oneplus/sm8350-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.display.iris-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.display.iris-service.rc \
     vendor/oneplus/sm8350-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm1.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm10.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm11.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm12.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm13.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm13.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm14.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm14.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm15.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm15.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm16.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm16.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm17.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm17.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm18.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm18.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm2.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm2.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm3.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm3.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm4.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm4.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm5.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm5.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm6.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm6.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm7.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm7.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm8.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm8.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/iris5/inParm9.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm9.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm12.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm14_a.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_a.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm14_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_b.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm14_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_c.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm16_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm16_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm16_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm17_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm17_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm17_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm18_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm18_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm18_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm1_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm1_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm1_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm2_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm2_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm2_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm3_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm3_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm3_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm4_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm4_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm4_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm5_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm5_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm5_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm6_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_center.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm6_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_down.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm6_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_up.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm8_a.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_a.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm8_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_b.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/inParm8_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_c.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/inparm/irissoft/mcfCheck_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck_low.txt \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
+    vendor/oneplus/sm8350-common/proprietary/odm/etc/irissoft_fod.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft_fod.fw \
     vendor/oneplus/sm8350-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8350-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8350-common/proprietary/odm/firmware/100ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/100ms_RTP.bin \
@@ -192,7 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/odm/lib/liboplusvppfilter.so:$(TARGET_COPY_OUT_ODM)/lib/liboplusvppfilter.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_process.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_stub.so \
-    vendor/oneplus/sm8350-common/proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so \
+    vendor/oneplus/sm8350-common/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/libQnnHtpAltPrepStub.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnHtpAltPrepStub.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/libQnnHtpStub.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnHtpStub.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
@@ -212,7 +271,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.cwb@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cwb@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
-    vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so \
+    vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.1.so \
@@ -265,6 +324,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
+    vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
+    vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/oneplus/sm8350-common/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
@@ -371,7 +432,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm \
-    vendor/oneplus/sm8350-common/proprietary/vendor/etc/Oplus_QC_LTM_Commercial_SM7325_2021_05_20.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/Oplus_QC_LTM_Commercial_SM7325_2021_05_20.pfm \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/Oplus_QC_LTM_Dev_2020_10_30.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/Oplus_QC_LTM_Dev_2020_10_30.pfm \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
@@ -496,7 +556,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/ltm_config_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/ltm_config_samsung_amb670yf01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_amb670yf01_dsc_cmd_mode_panel.xml \
-    vendor/oneplus/sm8350-common/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_fhd_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_fhd_cmd_mode_dsc_dsi_panel.xml \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/media/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media/video_system_specs.json \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/media_codecs_lahaina.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_lahaina.xml \
@@ -545,7 +604,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_samsung_amb670yf01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_amb670yf01_dsc_cmd_mode_panel.xml \
-    vendor/oneplus/sm8350-common/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_fhd_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_fhd_cmd_mode_dsc_dsi_panel.xml \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
@@ -1220,8 +1278,8 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     PowerOffAlarm \
-    HotwordEnrollmentOKGoogle \
-    HotwordEnrollmentXGoogle \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
     ImsRcsService \
     QtiTelephony \
     QtiTelephonyService \
